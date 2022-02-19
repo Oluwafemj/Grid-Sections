@@ -4,15 +4,14 @@
   
 body{ 
     background-color: rgb(223, 233, 229); 
-    background-image:url(images/bg-pattern-quotation.svg);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     font-family:Barlow Semi Condensed;
    }
 
 main{
     border: 2px ;
-    width: 900px;
+    width: 800px;
     margin: 95px auto;
     padding: 5px;
     color: hsl(210, 46%, 95%);
@@ -37,30 +36,38 @@ h6{
     top: -5px;
     position: relative;
     margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 10px;
 }
 
 .container{
     display: block;
+    font-size: 10px;
     font-weight:500;
     color: hsl(0, 0%, 70%);
 }
 
 .wrapper article:nth-child(1),article:nth-child(2),article:nth-child(3),article:nth-child(4),article:nth-child(5){
-    padding: 10px;
+    padding: 15px 25px;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 } 
 
 .wrapper article:nth-child(1){
     background-color: hsl(263, 55%, 52%);
+    background-image:url("../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-x: 250px;
     grid-column: 1/3;
     grid-row: 1;
 }
 
 .wrapper article:nth-child(2){
     background-color: hsl(217, 19%, 35%);
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .wrapper article:nth-child(3){
